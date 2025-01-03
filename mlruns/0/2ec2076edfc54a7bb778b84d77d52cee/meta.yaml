@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Emumba/Documents/genie%20research/llama%20index%20integration/mlruns/0/2ec2076edfc54a7bb778b84d77d52cee/artifacts
+end_time: 1735892742326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ec2076edfc54a7bb778b84d77d52cee
+run_name: aged-gnu-719
+run_uuid: 2ec2076edfc54a7bb778b84d77d52cee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735892708107
+status: 3
+tags: []
+user_id: Emumba

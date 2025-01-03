@@ -1,0 +1,44 @@
+{
+  "_embed_model": {
+    "object_constructor": "llama_index.embeddings.openai.base.OpenAIEmbedding",
+    "object_kwargs": {
+      "model_name": "text-embedding-ada-002",
+      "embed_batch_size": 100,
+      "num_workers": null,
+      "additional_kwargs": {},
+      "api_base": "https://api.openai.com/v1",
+      "api_version": "",
+      "max_retries": 10,
+      "timeout": 60.0,
+      "default_headers": null,
+      "reuse_client": true,
+      "dimensions": null
+    }
+  },
+  "_node_parser": {
+    "object_constructor": "llama_index.core.node_parser.text.sentence.SentenceSplitter",
+    "object_kwargs": {
+      "include_metadata": true,
+      "include_prev_next_rel": true,
+      "chunk_size": 1024,
+      "chunk_overlap": 200,
+      "separator": " ",
+      "paragraph_separator": "\n\n\n",
+      "secondary_chunking_regex": "[^,.;\u3002\uff1f\uff01]+[,.;\u3002\uff1f\uff01]?"
+    }
+  },
+  "_transformations": [
+    {
+      "object_constructor": "llama_index.core.node_parser.text.sentence.SentenceSplitter",
+      "object_kwargs": {
+        "include_metadata": true,
+        "include_prev_next_rel": true,
+        "chunk_size": 1024,
+        "chunk_overlap": 200,
+        "separator": " ",
+        "paragraph_separator": "\n\n\n",
+        "secondary_chunking_regex": "[^,.;\u3002\uff1f\uff01]+[,.;\u3002\uff1f\uff01]?"
+      }
+    }
+  ]
+}

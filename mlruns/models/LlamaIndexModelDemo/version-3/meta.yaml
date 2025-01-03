@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1735892337965
+current_stage: None
+description: null
+last_updated_timestamp: 1735892337965
+name: LlamaIndexModelDemo
+run_id: 6c80a140a7ce402c866ac3821f25e375
+run_link: null
+source: file:///C:/Users/Emumba/Documents/genie%20research/llama%20index%20integration/mlruns/0/6c80a140a7ce402c866ac3821f25e375/artifacts/llama_index_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/Emumba/Documents/genie%20research/llama%20index%20integration/mlruns/0/6c80a140a7ce402c866ac3821f25e375/artifacts/llama_index_model
+user_id: null
+version: 3

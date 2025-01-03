@@ -1,0 +1,17 @@
+artifact_path: llama_index_model
+flavors:
+  llama_index:
+    code: null
+    engine_type: query
+    llama_index_version: 0.12.9
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.llama_index
+    python_version: 3.11.9
+mlflow_version: 2.19.0
+model_size_bytes: 73877
+model_uuid: ab55775673ac4423a14c1f6933198977
+run_id: 96237590b5ff4ddab0d532314db29aa7
+utc_time_created: '2025-01-03 07:22:58.358314'

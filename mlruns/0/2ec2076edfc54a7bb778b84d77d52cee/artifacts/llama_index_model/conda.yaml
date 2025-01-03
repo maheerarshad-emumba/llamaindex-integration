@@ -1,0 +1,28 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.11.9
+- pip<=24.0
+- pip:
+  - mlflow==2.19.0
+  - llama-index-agent-openai==0.4.1
+  - llama-index-cli==0.4.0
+  - llama-index-core==0.12.9
+  - llama-index-embeddings-openai==0.3.1
+  - llama-index-indices-managed-llama-cloud==0.6.3
+  - llama-index-llms-openai==0.3.12
+  - llama-index-multi-modal-llms-openai==0.4.1
+  - llama-index-program-openai==0.3.1
+  - llama-index-question-gen-openai==0.3.0
+  - llama-index-readers-file==0.4.1
+  - llama-index-readers-llama-parse==0.4.0
+  - llama-index==0.12.8
+  - numpy==2.2.0
+  - pandas==2.2.3
+  - psutil==6.1.0
+  - pygments==2.18.0
+  - scikit-learn==1.6.0
+  - scipy==1.14.1
+  - sqlalchemy==2.0.36
+  - tornado==6.4.2
+name: mlflow-env
