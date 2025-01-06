@@ -1,1 +1,0 @@
-[{"name": "BaseEmbedding.get_text_embedding_batch", "type": "EMBEDDING", "inputs": ["texts", "show_progress"]}]
