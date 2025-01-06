@@ -32,6 +32,7 @@ This repository demonstrates the integration of **LlamaIndex** with **MLflow** a
     ```bash
     pip install -r requirements.txt
 4. Add Your OpenAI API Key to a .env File
+    ```bash
     OPENAI_API_KEY=your-api-key-here
 
 ### Usage
